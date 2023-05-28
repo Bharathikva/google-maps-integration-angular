@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+             "node_modules/@types/googlemaps/index.d.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,10 +91,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5a26e5b2-4c81-454e-af22-a312575c782a"
   }
 }
